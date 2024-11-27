@@ -1,0 +1,43 @@
+{
+	"name": "Humaner AI Comfy UI Custom Nodes",
+	"image": "mcr.microsoft.com/devcontainers/python:1-3.10-bookworm",
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {},
+		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/devcontainers/features/git-lfs:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"ms-azuretools.vscode-docker",
+				"pucelle.run-on-save",
+				"github.remotehub",
+				"dbaeumer.vscode-eslint",
+				"github.copilot",
+				"github.copilot-chat",
+				"visualstudioexptteam.vscodeintellicode",
+				"visualstudioexptteam.intellicode-api-usage-examples",
+				"ms-vsliveshare.vsliveshare",
+				"unifiedjs.vscode-mdx",
+				"github.codespaces",
+				"eamodio.gitlens",
+				"ms-ceintl.vscode-language-pack-ko",
+				"streetsidesoftware.code-spell-checker",
+				"ms-vscode-remote.remote-containers",
+				"ms-azuretools.vscode-docker",
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"ms-python.autopep8",
+				"gruntfuggly.todo-tree",
+				"ms-python.isort",
+				"mechatroner.rainbow-csv",
+				"littlefoxteam.vscode-python-test-adapter",
+				"GitHub.vscode-pull-request-github",
+				"ms-python.black-formatter"
+			]
+		}
+	},
+	"remoteUser": "vscode"
+}
