@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-hm-custom-nodes"
+description = "Nodes related to workflows"
+version = "0.0.1"
+license = { file = "LICENSE" }
+dependencies = ["torch", "numpy", "opencv-python", "scipy"]
+
+[project.urls]
+Repository = "https://github.com/nextstepgrowth/comfyui-hm-custom-nodes"
+
+#  Used by Comfy Registry https://comfyregistry.org
+[tool.comfy]
+PublisherId = "humaner"
+DisplayName = "ComfyUI-HM-Custom-Nodes"
+Icon = ""
